@@ -14,6 +14,6 @@ resource "aws_internet_gateway" "myvpcigw" {
 
   tags = {
     Name = "${var.igw_name}"
-    environment = "PROD"
+    environment = "PRODENV"
   }
 }
