@@ -38,3 +38,4 @@ resource "aws_subnet" "subnet3-public" {
     depends_on = [
     aws_flow_log.vpcflowlogs,
   ]
+}
