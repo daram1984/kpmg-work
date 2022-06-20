@@ -8,4 +8,4 @@ public_subnet1_cidr = "10.50.1.0/24"
 public_subnet2_cidr = "10.50.2.0/24"
 public_subnet3_cidr = "10.50.3.0/24"
 vpc_name = "Prod_VPC"
-igw_name = "Prod_IGW"
+igw_name = "Prod_IGW
