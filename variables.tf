@@ -8,4 +8,4 @@ variable "public_subnet1_cidr" {}
 variable "public_subnet2_cidr" {}
 variable "public_subnet3_cidr" {}
 variable "vpc_name" {}
-variable "igw_name" {
+variable "igw_name" {}
