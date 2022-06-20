@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "prodbucket" {
 
   tags = {
     Name        = "devbucket84"
-    Environment = "PROD"
+    Environment = "PRODENV"
   }
    depends_on = [
     aws_vpc.my_vpc
